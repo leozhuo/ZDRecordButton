@@ -2,6 +2,8 @@
 仿微信长钮录制视频和点击拍照的按钮控件。
 此控件只提供控件UI，控件的操作状态都有代理回调返回，关于编辑视频和照片后续会出。
 
+
+![image](https://github.com/leozhuo/ZDRecordButton/blob/master/gifs/0reud-ezcn92.gif)
 # 集成
 ```
 第一种：直接把工程的ZDRecord文件夹拖进项目中
