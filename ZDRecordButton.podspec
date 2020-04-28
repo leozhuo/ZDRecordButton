@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/ZDRecordButton"
+  spec.homepage     = "https://github.com/leozhuo/ZDRecordButton"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,9 +52,9 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "duke" => "tiantianyueke@163.com" }
-  # Or just: spec.author    = "duke"
-  # spec.authors            = { "duke" => "tiantianyueke@163.com" }
+  spec.author             = { "leozhuo" => "1078528010@qq.com" }
+  # Or just: spec.author    = "leozhuo"
+  # spec.authors            = { "leozhuo" => "1078528010@qq.com" }
   # spec.social_media_url   = "https://twitter.com/duke"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/ZDRecordButton.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/leozhuo/ZDRecordButton.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,8 +90,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "ZDRecord", "ZDRecord/**/*.{h,m}"
+  #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
