@@ -4,6 +4,9 @@
 
 
 ![image](https://github.com/leozhuo/ZDRecordButton/blob/master/gifs/0reud-ezcn92.gif)
+
+# 可以自定义修改进度条、外圆内圆的颜色
+![image]()
 # 集成
 ```
 第一种：直接把工程的ZDRecord文件夹拖进项目中
