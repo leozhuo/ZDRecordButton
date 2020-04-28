@@ -1,3 +1,4 @@
+
 #
 #  Be sure to run `pod spec lint ZDRecordButton.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
@@ -16,7 +17,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ZDRecordButton"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "仿微信长钮录制视频和点击拍照的按钮控件."
 
   # This description is used to generate tags and improve search results.
@@ -37,7 +38,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, "10.0"
 
-  spec.source       = { :git => "https://github.com/leozhuo/ZDRecordButton.git", :tag => "0.0.1" }
+  spec.source       = { :git => "https://github.com/leozhuo/ZDRecordButton.git", :tag => "0.0.2" }
 
 
   spec.source_files  = "ZDRecordButton/ZDRecord/*.{h,m}"
