@@ -2,8 +2,8 @@
 //  ZDRecordButton.h
 //  videoDealDemo
 //
-//  Created by 文昊诚 on 2020/4/21.
-//  Copyright © 2020 文昊诚. All rights reserved.
+//  Created by ZD on 2020/4/21.
+//  Copyright © 2020 ZD. All rights reserved.
 //
 
 
