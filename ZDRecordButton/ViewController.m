@@ -19,10 +19,12 @@
     
     self.view.backgroundColor = [UIColor colorWithRed:245 / 255.0 green:245 / 255.0 blue:240 / 255.0 alpha:1];
     
-    ZDRecordButton *rManager = [[ZDRecordButton alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - 80) / 2, [UIScreen mainScreen].bounds.size.height - 120, 80, 80)];
+    ZDRecordButton *rManager = [[ZDRecordButton alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - 120) / 2, [UIScreen mainScreen].bounds.size.height - 160, 120, 120)];
     rManager.delegate = self;
     //进度条颜色
-    rManager.progressColor = [UIColor blueColor];
+    rManager.progressColor = [UIColor greenColor];
+    rManager.outCircleColor = [UIColor brownColor];
+    rManager.timeInterval = 6;
     [self.view addSubview:rManager];
 }
 
